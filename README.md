@@ -6,7 +6,11 @@ Thank you for taking the time to complete this exercise.
 
 This project is to build a simple web page with a form, a table and "bubble" chart to display country data as selected by the user. 
 
-To create the "bubble" chart you can use any suitable library. D3.js will for example plot a chart similar to the following image:
+Please use HTML, JS and native JavaScript (Vanilla JS) for the implementation of the core functionality described below. 
+
+Please do not use a JavaScript framework (React, Angular, etc). 
+
+You may use jQuery for data and DOM manipulation if you wish. To create the "bubble" chart you may use any suitable library; D3.js will, for example, plot a chart similar to the following image:
 
 ![bubble chart](bubble.jpg?raw=true)
 
