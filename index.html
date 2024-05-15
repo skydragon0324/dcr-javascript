@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Data Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <h1>Country Data Visualization</h1>
+    <form id="data-form">
+        <label for="criteria">Select criteria:</label>
+        <select id="criteria">
+            <option value="population">Population size</option>
+            <option value="borders">Number of borders</option>
+            <option value="timezones">Number of timezones</option>
+            <option value="languages">Number of languages</option>
+        </select>
+    <div id="chart"></div>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
